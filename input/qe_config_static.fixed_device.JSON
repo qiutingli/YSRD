@@ -1,0 +1,164 @@
+{
+
+  "CRITERIA_1": {
+    "PM25": {"upper_range_mae_perc_ceil": 0.1, "lower_range_mae_ceil": 12,"maep": 0.12, "mae":25, "corr_floor": 0.97,"slope_floor": 0.8, "slope_ceil": 1.2, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.05,"post_reg_maep":0.05},
+
+    "PM10": {"upper_range_mae_perc_ceil": 0.15, "lower_range_mae_ceil": 15,"maep": 0.18, "mae":40, "corr_floor": 0.95, "slope_floor": 0.75, "slope_ceil": 1.25, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.10,"post_reg_maep":0.10},
+
+    "TSP": {"upper_range_mae_perc_ceil": 0.15, "lower_range_mae_ceil": 20,"maep": 0.15, "mae":60, "corr_floor": 0.95, "slope_floor": 0.75, "slope_ceil": 1.25, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.10,"post_reg_maep":0.10},
+
+    "TVOC": {"upper_range_mae_perc_ceil": 0.15, "lower_range_mae_ceil": 0.3,"maep": 0.15, "mae":0.3, "corr_floor":0.8, "slope_floor":0.75, "slope_ceil": 1.25,"orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.05, "post_reg_maep":0.1},
+
+    "TEMPERATURE": {"upper_range_mae_perc_ceil": 0.1, "lower_range_mae_ceil": 1, "maep": 0.1, "mae":1, "corr_floor": 0.99, "slope_floor": 0.95, "slope_ceil": 1.05, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10},
+
+    "HUMIDITY": {"upper_range_mae_perc_ceil": 0.1, "lower_range_mae_ceil": 1,"maep": 0.1, "mae":2, "corr_floor": 0.99, "slope_floor": 0.95, "slope_ceil": 1.05, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10},
+
+    "LONGITUDE": {"upper_range_mae_perc_ceil": 0.0002, "lower_range_mae_ceil": 0.0002, "maep": 0.01, "mae":0.0002, "corr_floor": 0.95,  "slope_floor": 0.95, "slope_ceil": 1.05, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10},
+
+     "LATITUDE": {"upper_range_mae_perc_ceil": 0.0002, "lower_range_mae_ceil": 0.0002,"maep": 0.01, "mae":0.0002, "corr_floor": 0.95,  "slope_floor": 0.95, "slope_ceil": 1.05, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10}
+  },
+
+  "CRITERIA_2": {
+    "PM25": {"upper_range_mae_perc_ceil": 0.15, "lower_range_mae_ceil": 15,"maep": 0.15, "mae":30, "corr_floor": 0.95, "slope_floor": 0.7, "slope_ceil": 1.3, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.05,"post_reg_maep":0.10},
+
+    "PM10": {"upper_range_mae_perc_ceil": 0.20, "lower_range_mae_ceil": 20,"maep": 0.20, "mae":50, "corr_floor": 0.90, "slope_floor": 0.7, "slope_ceil": 1.3, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.10,"post_reg_maep":0.15},
+
+    "TSP": {"upper_range_mae_perc_ceil": 0.20, "lower_range_mae_ceil": 30, "maep": 0.15, "mae":70, "corr_floor": 0.90, "slope_floor": 0.7, "slope_ceil": 1.3, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.10,"post_reg_maep":0.15},
+
+    "TVOC": {"upper_range_mae_perc_ceil":20, "lower_range_mae_ceil":0.5, "maep": 0.20, "mae":0.5, "corr_floor":0.8, "slope_floor": 0.70, "slope_ceil": 1.30, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.10,"post_reg_maep":0.15},
+
+    "TEMPERATURE": {"upper_range_mae_perc_ceil": 0.1, "lower_range_mae_ceil": 1,"maep": 0.1, "mae":2, "corr_floor": 0.99, "slope_floor": 0.99, "slope_ceil": 1.01, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10},
+
+    "HUMIDITY": {"upper_range_mae_perc_ceil": 0.1, "lower_range_mae_ceil": 1,"maep": 0.1, "mae":3, "corr_floor": 0.99,"slope_floor": 0.99, "slope_ceil": 1.01, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.05,"post_reg_maep":0.10},
+
+    "LONGITUDE": {"upper_range_mae_perc_ceil": 0.0003, "lower_range_mae_ceil": 0.0003,"maep": 0.01, "mae":0.0003, "corr_floor": 0.95,  "slope_floor": 0.95, "slope_ceil": 1.05, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10},
+
+     "LATITUDE": {"upper_range_mae_perc_ceil": 0.0003, "lower_range_mae_ceil": 0.0003,"maep": 0.01, "mae":0.0003, "corr_floor": 0.95,  "slope_floor": 0.95, "slope_ceil": 1.05, "orig_entry_rate_floor":0.9, "error_rate_ceil":0.05, "hop_rate_ceil":0.02,"post_reg_maep":0.10}
+
+  },
+
+  "CRITERIA_ITEM_BY_VAR":{
+    "PM25":["post_reg_maep", "corr_floor", "slope_floor", "slope_ceil", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "PM10":["post_reg_maep", "corr_floor", "slope_floor", "slope_ceil", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "TVOC":["post_reg_maep", "corr_floor", "slope_floor", "slope_ceil", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "TSP":["post_reg_maep", "corr_floor", "slope_floor", "slope_ceil", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "HUMIDITY":["mae", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "TEMPERATURE":["mae", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "LONGITUDE":["mae", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"],
+
+    "LATITUDE":["mae", "orig_entry_rate_floor", "error_rate_ceil", "hop_rate_ceil"]
+  },
+
+  "BASE_DEVICE_COMMITTEE": {
+    "PM25": {
+      "YSRDAQ070000000067": ["PM25_2"],
+      "YSRDPM250000002891": ["PM25_1"],
+      "YSRDPM10P500000085": ["PM25_1"],
+      "YSRDAQ07HW00000589": ["PM25_2", "PM25_3"]
+    },
+    "PM10":{
+      "YSRDAQ07P500000985": ["PM10_1","PM10_2"],
+      "YSRDAQ07P500000087": ["PM10_1","PM10_2","PM10_3"]
+    },
+    "TVOC":{
+      "YSRDVHP7PT00000052": ["TVOC"]
+    },
+    "HUMIDITY":{
+      "YSRDAQ070000000067": ["HUMIDITY"],
+      "YSRDPM250000002891": ["HUMIDITY"],
+      "YSRDPM10P500000085": ["HUMIDITY"],
+      "YSRDAQ07HW00000589": ["HUMIDITY"]
+    },
+    "TEMPERATURE":{
+      "YSRDAQ070000000067": ["TEMPERATURE"],
+      "YSRDPM250000002891": ["TEMPERATURE"],
+      "YSRDPM10P500000085": ["TEMPERATURE"],
+      "YSRDAQ07HW00000589": ["TEMPERATURE"]
+    },
+    "LONGITUDE":{
+      "YSRDAQ070000000067": ["LONGITUDE"],
+      "YSRDPM250000002891": ["LONGITUDE"],
+      "YSRDPM10P500000085": ["LONGITUDE"],
+      "YSRDAQ07HW00000589": ["LONGITUDE"]
+    },
+    "LATITUDE":{
+      "YSRDAQ070000000067": ["LATITUDE"],
+      "YSRDPM250000002891": ["LATITUDE"],
+      "YSRDPM10P500000085": ["LATITUDE"],
+      "YSRDAQ07HW00000589": ["LATITUDE"]
+    }
+  },
+
+  "CAPTURE_TABLE_FIELDS": {
+    "1":"PM25_1, PM25_2, PM25_3, PM10_1, PM10_2, PM10_3, TVOC, OUTSIDE_HUMIDITY AS HUMIDITY, OUTSIDE_TEMPERATURE AS TEMPERATURE, LONGITUDE, LATITUDE, REV1 AS TSP",
+    "2":"PM25_1, PM25_2, PM25_3, PM10_1, PM10_2, PM10_3, TVOC, OUTSIDE_HUMIDITY AS HUMIDITY, OUTSIDE_TEMPERATURE AS TEMPERATURE, LONGITUDE, LATITUDE",
+    "3":"PM25_1, PM25_2, PM25_3, PM10_1, PM10_2, PM10_3, OUTSIDE_HUMIDITY_1 AS HUMIDITY, OUTSIDE_TEMPERATURE_1 AS TEMPERATURE, LONGITUDE, LATITUDE",
+    "7":"TSP, PM25, OUTSIDE_HUMIDITY AS HUMIDITY, OUTSIDE_TEMPERATURE AS TEMPERATURE, LONGITUDE, LATITUDE"
+  },
+
+  "ERROR_CODE": {
+    "PM25": [0, 1, -99],
+    "PM10": [0, 1, -99],
+    "HUMIDITY":[-99],
+    "TEMPERATURE":[-99],
+    "LONGITUDE":[-99],
+    "LATITUDE":[-99],
+    "TSP": [0, 1, -99],
+    "TVOC":[-99]
+  },
+
+  "PARA": {
+    "PM25":{
+      "scale_cutting_point":50,
+      "hop_threshold":30
+    },
+    "PM10":{
+      "scale_cutting_point":100,
+      "hop_threshold":50
+    },
+    "TSP":{
+      "scale_cutting_point":100,
+      "hop_threshold":50
+    },
+    "TVOC":{
+      "scale_cutting_point":0.5,
+      "hop_threshold":0.5
+    },
+    "HUMIDITY":{
+      "scale_cutting_point":200,
+      "hop_threshold":5
+    },
+    "TEMPERATURE":{
+      "scale_cutting_point":60,
+      "hop_threshold":3
+    },
+    "LONGITUDE":{
+      "scale_cutting_point":10000,
+      "hop_threshold":0.0001
+    },
+    "LATITUDE":{
+      "scale_cutting_point":10000,
+      "hop_threshold":0.0001
+    }
+  },
+
+  "MAX_EXP_VAL":{
+    "PM25":500,
+    "PM10":600,
+    "TSP":800,
+    "TVOC":10000,
+    "HUMIDITY":100,
+    "TEMPERATURE":50,
+    "LONGITUDE":10000,
+    "LATITUDE":10000
+  },
+  "AGGREGATION_INTERVAL":60
+}
+
+
